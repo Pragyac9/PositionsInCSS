@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 300vh;
+        }
+
+        #box1,
+        #box2,
+        #box3,
+        #box4 {
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+        }
+
+        #box1 {
+            border: 2px solid red;
+            /* position: absolute; */
+        }
+
+        #box2 {
+            border: 2px solid yellow;
+            /* position: fixed; */
+
+        }
+
+        #box3 {
+            border: 2px solid aqua;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 100px;
+        }
+
+        #box4 {
+            border: 2px solid brown;
+
+            box-shadow: -10px -10px 15px yellowgreen;
+            position: fixed;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            left: 200px;
+            top: 100px;
+            filter: drop-shadow(20px 20px 15px rgb(180, 183, 181));
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <div id="box4"></div>
+    <img src="https://tse3.mm.bing.net/th?id=OIP.BvW2ZbAURdlASH8Wf4v73gHaG_&pid=Api&P=0&w=300&h=300"
+        alt=" Cartoon Image" width="">
+
+</body>
+
+</html>
